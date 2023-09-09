@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* common css */
+body{
+    font-family: Segoe UI;
+}
+
+.container-fluid{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+}
+
+
+/* header */
+.header{
+    height: 60px;
+    background-color: hsl(0, 0%, 67%);
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 500;
+    color: #ebebeb;
+}
+
+button, select{
+    padding: 8px 15px;
+    outline: none;
+    border: 1px solid #0b6d86;
+    font-size: 16px;
+    background-color: #0b6d86;
+    color: white;
+}
+button{
+    cursor: pointer;
+}
+
+
+
+/* card css */
+
+.cards{
+    margin-top: 30px;
+}
+
+.cards-container{
+    display: flex;
+    column-gap: 4%;
+    row-gap:30px;
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 48%;
+    background-color: white;
+    border: 1px solid #d3d3d3;
+    box-sizing: border-box;
+    display: flex;
+    column-gap: 3%;
+    padding: 15px;
+}
+
+.news-img{
+    width: 42%;
+}
+
+.news-img > img{
+    width: 100%;
+}
+
+.content{
+    width: 55%;
+}
+
+.title{
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.content > p{
+    font-weight: 500;
+    font-size: 14px;
+    color: grey;
+    font-style: italic
+}
+
+.details{
+    font-size: 15px !important;
+    font-style: normal !important;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.btn{
+    text-decoration: none;
+    border: 1px solid #0b6d86;
+    background-color: #0b6d86;
+    color: white;
+    padding: 5px 10px;
+}
